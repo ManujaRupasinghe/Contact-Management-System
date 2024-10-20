@@ -7,12 +7,12 @@ use Illuminate\Support\Facades\Route;
 //    return view('welcome');
 //});
 
-Route::get('contact', [StudentController::class, 'index']);
-Route::get('contact/create', [StudentController::class, 'create']);
-Route::get('contact/{id}/edit', [StudentController::class, 'edit']);
-Route::post('contact/store', [StudentController::class, 'store']);
-Route::get('contact/all', [StudentController::class, 'all']);
-Route::get('contact/{id}/get', [StudentController::class, 'get']);
-Route::post('contact/update/{id}', [StudentController::class, 'update']);
-Route::delete('contact/delete/{id}', [StudentController::class, 'delete']);
+Route::get('student', [StudentController::class, 'index']);
+Route::get('student/create', [StudentController::class, 'create']);
+Route::get('student/{id}/edit', [StudentController::class, 'edit']);
+Route::post('student/store', [StudentController::class, 'store']);
+Route::get('student/all', [StudentController::class, 'all']);
+Route::get('student/{id}/get', [StudentController::class, 'get']);
+Route::post('student/update/{id}', [StudentController::class, 'update']);
+Route::delete('student/delete/{id}', [StudentController::class, 'delete']);
 

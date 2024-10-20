@@ -9,10 +9,9 @@ use Illuminate\Http\Request;
 class StudentController extends Controller
 {
     public function delete($id){
-        $contact = Student::findOrFail($id);
-        $contact->delete();
+        $student = Student::findOrFail($id);
+        $student->delete();
         return redirect('student')->with('success', 'Contact deleted successfully.');
     }
       
 }
-g

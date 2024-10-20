@@ -8,10 +8,6 @@ use Illuminate\Http\Request;
 
 class StudentController extends Controller
 {
-    public function index() {
-        $students = Student::all();
-        return view('student.index', compact('students'));
-    }
 
     public function create()  {
         return view('student.create');
@@ -22,7 +18,4 @@ class StudentController extends Controller
         return redirect('student')->with('success', 'Contact created successfully.');
     }
 
-    public function all() {
-        return Student::all();
-    }
 }

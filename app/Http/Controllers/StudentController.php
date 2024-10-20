@@ -1,13 +1,15 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Models\Student;
 use Illuminate\Http\Request;
+use App\http\Requests\StoreStudentRequest;
 
 class StudentController extends Controller
 {
     public function index(){
-        $contact = Student::all();
-        return view('contact.index',compact('contact'));
+        $student = Student::all();
+        return view('student.index',compact('student'));
     }
 
     public function all() 

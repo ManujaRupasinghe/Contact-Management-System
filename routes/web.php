@@ -1,6 +1,6 @@
 <?php
 
-use App\http\Controllers\StudentController;
+use App\Http\Controllers\StudentController;
 use Illuminate\Support\Facades\Route;
 
 //Route::get('/', function () {

@@ -1,6 +1,6 @@
 <?php
 
-use App\http\Controllers\StudentController;
+use App\Http\Controllers\StudentController;
 use Illuminate\Support\Facades\Route;
 
 //Route::get('/', function () {
@@ -15,4 +15,5 @@ Route::get('student/all', [StudentController::class, 'all']);
 Route::get('student/{id}/get', [StudentController::class, 'get']);
 Route::post('student/update/{id}', [StudentController::class, 'update']);
 Route::delete('student/delete/{id}', [StudentController::class, 'delete']);
+
 

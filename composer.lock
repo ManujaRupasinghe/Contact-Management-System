@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7e8c3c14ff33b199b4a0838993eb8423",
+    "content-hash": "8c804e4a8c3c1ea0e6dd61980c279cdd",
     "packages": [
         {
             "name": "brick/math",
@@ -2034,7 +2034,6 @@
         },
         {
             "name": "nette/schema",
-
             "version": "v1.3.2",
             "source": {
                 "type": "git",
@@ -2045,7 +2044,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/nette/schema/zipball/da801d52f0354f70a638673c4a0f04e16529431d",
                 "reference": "da801d52f0354f70a638673c4a0f04e16529431d",
-
                 "shasum": ""
             },
             "require": {
@@ -7759,12 +7757,12 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": "^8.2"
     },
-    "platform-dev": [],
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }

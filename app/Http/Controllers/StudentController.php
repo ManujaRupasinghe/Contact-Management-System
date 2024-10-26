@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+
 use Illuminate\Http\Request;
 use App\Models\Student;
 use App\Http\Request\storeStudentRequest;
@@ -19,3 +20,4 @@ class StudentController extends Controller
         return redirect('student')->with('success', 'student update suscusfull.');
     }
 }
+

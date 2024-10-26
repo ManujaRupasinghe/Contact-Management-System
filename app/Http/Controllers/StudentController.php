@@ -13,10 +13,9 @@ class StudentController extends Controller
         return view('student.edit',student('student'));
     }
 
-
     public function update(Request $request, $id){
         $student= Student::findOrFail($id);
         $student->update($request->all());
-        return redirect('student')->with('success', 'Student contact details updated.');
+        return redirect('student')->with('success', 'student update suscusfull.');
     }
 }
